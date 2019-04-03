@@ -9,6 +9,7 @@ package holamundo;
  *
  * @author jdiazga
  */
+import java.util.*;
 public class HolaMundo {
 
     /**
@@ -17,5 +18,10 @@ public class HolaMundo {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola mundo");
+        System.out.println("sapo HPTA");
+        Scanner lectura=new Scanner(System.in);
+        System.out.println("ingrese el primer numero");
+        int numero= lectura.nextInt();
+        System.out.println("ingreso " + numero);
     }
 }
