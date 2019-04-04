@@ -19,9 +19,13 @@ public class HolaMundo {
         // TODO code application logic here
         System.out.println("Hola mundo");
         System.out.println("sapo HPTA");
+        System.out.println("sali con tu mujer");
         Scanner lectura=new Scanner(System.in);
         System.out.println("ingrese el primer numero");
         int numero= lectura.nextInt();
-        System.out.println("ingreso " + numero);
+        System.out.println("ingrese el segundo numero");
+        int numero2= lectura.nextInt();
+        System.out.println("suma: " + (numero + numero2));
+        System.out.println("multiplicacion: " + numero * numero2);
     }
 }
