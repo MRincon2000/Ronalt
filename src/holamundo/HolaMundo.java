@@ -25,7 +25,9 @@ public class HolaMundo {
         int numero= lectura.nextInt();
         System.out.println("ingrese el segundo numero");
         int numero2= lectura.nextInt();
-        System.out.println("suma: " + (numero + numero2));
-        System.out.println("multiplicacion: " + numero * numero2);
+        int suma=numero+numero2;
+        System.out.println("suma: " + suma);
+        int multiplicacion=numero*numero2;
+        System.out.println("multiplicacion: " + multiplicacion);
     }
 }
